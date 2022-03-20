@@ -1,0 +1,291 @@
+body{
+	background-image: url(wooden_background2.jpeg);
+);
+	background-size: cover;
+}
+
+.main_body{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1200px;
+	height: 600px;
+	z-index: 1;
+	border-radius: 30px;
+	padding: 10px;
+}
+.main_body:hover{
+	border-width: 2px;
+	border-color: #000000;
+	border-style: groove;
+	box-shadow: 0px 0px 15px #000000;
+	padding-top: 8px;
+}
+#heading{
+	opacity: 1;
+	color: #000000;
+	text-align: center;
+	z-index: 1;
+	font-family: Segoe Script;
+	text-shadow: 0px 0px 7px #ffffff;
+}
+
+#scoreboard{
+	height: 500px;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 20px;
+	float: left;
+}
+#scoreboard:hover{
+	border-width: 5px;
+	border-color: #66ff99;
+	border-style: ridge;
+	box-shadow: 0px 0px 10px #b3ffcc;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+#board{
+	height: 500px;
+	width: 750px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+	float: right;
+}
+#board:hover{
+	border-width: 5px;
+	border-color: #ffff00;
+	border-style: ridge;
+	box-shadow: 0px 0px 10px #ffff66;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+#heading1{
+	color: #66ff99;
+	text-shadow: 0px 0px 5px #ffff66;
+	text-align: center;
+	font-family: Segoe Script;
+}
+#scoreboard_inner{
+	color: #66ff99;
+	border-style: ridge;
+	border-color: #66ff99;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #ffff66;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	width: 300px;
+	height: 400px;
+	font-size: 20px;
+	padding: 8px;
+	font-family: Segoe Script;
+}
+#scoreboard_inner tr td{
+	border-color: #66ff99;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: ridge;
+	text-align: center;
+}
+#scoreboard_inner tr .head1{
+	border-color: #66ff99;
+	border-radius: 5px;
+	font-weight: bolder;
+	text-shadow: 0px 0px 5px #ffff66;
+	border-width: 1px;
+	border-style: ridge;
+	width: 50%;
+}
+#scoreboard_inner tr .head2{
+	border-color: #66ff99;
+	border-radius: 5px;
+	font-weight: bolder;
+	text-shadow: 0px 0px 5px #ffff66;
+	border-width: 1px;
+	border-style: ridge;
+}
+#scoreboard_inner tr .head3{
+	border-color: #66ff99;
+	border-radius: 5px;
+	font-weight: bolder;
+	text-shadow: 0px 0px 5px #ffff66;
+	border-width: 1px;
+	border-style: ridge;
+}
+#dice_space{
+	width: 600px;
+	height: 290px;
+	background-image: url(dice_background.jpeg);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px #ffff66;
+	padding-top: 10px;
+}
+#dice_space1{
+	width: 250px;
+	height: 250px;
+	margin-left: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #ffffff;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#main_button input{
+	border: none;
+	background-image: url(dice_button1.png);
+	background-size: contain;
+	opacity: 0.5;
+	margin-top: 100px;
+	margin-left: 30px;
+	border-radius: 20px;
+	width: 220px;
+	height: 80px;
+	color: #00004d;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Segoe Script;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+}
+#main_button input:hover{
+	opacity: 1;
+	box-shadow: 0px 0px 10px #ffffff;
+	text-shadow: 0px 0px 10px #00004d;
+	width: 230px;
+	height: 90px;
+	margin-top: 95px;
+	margin-left: 25px;
+}
+#main_button input:active{
+	background-color: #000000;
+	background-image: none;
+	text-shadow: 0px 0px 10px #ffffff;
+	color: #ffffff;
+}
+#options{
+	width: 600px;
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 20px;
+	border-radius: 20px;
+	border-width: 3px;
+	border-style: ridge;
+	border-color: #ffff00;
+	box-shadow: 0px 0px 10px #ffff66;
+	color: #ffffff;
+	padding: 10px;
+	font-family: Segoe Script;
+}
+
+#options .text_input1{
+	background-color: rgba(0, 0, 255, 0.1);
+	border: none;
+	color: #ffff00;
+	text-shadow: 0px 0px 10px #ffff66;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Segoe Script;
+	width: 170px;
+	height: 30px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+#options .text_input2{
+	background-color: rgba(0, 0, 255, 0.1);
+	border: none;
+	color: #ffff00;
+	text-shadow: 0px 0px 10px #ffff66;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Segoe Script;
+	width: 170px;
+	height: 30px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+#options .radio11,.radio22{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#options .radio1,.radio2 {
+  position: absolute;
+  opacity: 1;
+  background-color: #000000;
+  border-width: 2px;
+  border-style: ridge;
+  border-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-left: 15px;
+  margin-top: 1px;
+}
+
+#options input:checked ~ .radio1 {
+  background-color: #ffff00;
+  box-shadow: 0px 0px 10px #ffff33;
+  border-color: #ffff33;
+
+}
+#options input:checked ~ .radio2 {
+  background-color: #ffff00;
+  box-shadow: 0px 0px 10px #ffff33;
+  border-color: #ffff33;
+}
+#options input:checked ~ .radio1:after {
+  display: block;
+}
+
+#options input:checked ~ .radio2:after {
+  display: block;
+}
+
+#options ul{
+	list-style: none;
+	margin-left: 110px;
+	margin-top: -25px;
+}
+
+#options .start_button{
+	float: right;
+	background-color: white;
+	width: 40%;
+	height: 80%;
+	border: none;
+	border-radius: 30px;
+    font-size: 35px;
+    font-family: Segoe Script;
+    background-image: url(startbutton.jpeg);
+    color: #001a33;
+    text-shadow: 0px 0px 10px #99ccff;
+    margin-top: 10px;
+}
+#options .start_button:hover{
+	border-width: 4px;
+	border-color: #001a33;
+	border-style: ridge;
+	box-shadow: 0px 0px 20px #99ccff;
+	background-size: cover;
+}
